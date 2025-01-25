@@ -19,7 +19,7 @@ Permettre un accès facile sur différents appareils (ordinateurs, tablettes, sm
         ◦ Description physique
         ◦ Catégorie
         ◦ Image de la plante
-        ◦ Date et lieu de l’image
+        ◦ Date et lieu de l'image
         ◦ Comestibilité.
 ###    • Recherche et filtrage : 
 Implémenter une fonctionnalité de recherche avancée permettant aux utilisateurs de trouver facilement une plante en fonction de critères (nom, catégorie, localisation, etc...).
@@ -33,9 +33,9 @@ Les utilisateurs peuvent exporter leur herbier sous forme de fichier PDF ou CSV 
 ## <h2>3. 🛠️ Technologies utilisées</h2>
 
 ###    • Frontend (interface utilisateur) : 
-Utilisation de technologies modernes telles que HTML5, TypeScript avec des frameworks comme Next.Js, React, Taiwind CSS  pour construire une interface dynamique et interactive.
+Utilisation de technologies modernes telles que HTML5, TypeScript avec les frameworks comme Next.Js, React, Taiwind CSS  pour construire une interface dynamique et interactive.
 ###    • Backend (gestion des données) : 
-Un serveur basé sur Node.js avec Next.Js, et l’ORM Prisma pour gérer les requêtes des utilisateurs, les données des plantes, les comptes utilisateurs, etc.
+Un serveur basé sur Node.js avec Next.Js, et lORM Prisma pour gérer les requêtes des utilisateurs, les données des plantes, les comptes utilisateurs, etc.
 ###    • Base de données : 
 Une base de données relationnelle MySQL, pour stocker les informations relatives aux plantes et aux utilisateurs.
 ###    • Hébergement et déploiement : 
