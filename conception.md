@@ -1,9 +1,9 @@
-# <h1>🌿 Conception 🌷</h1>
+# 🌿 Conception 🌷
 
 La création de cette application web d'herbier facile me permet de concevoir un outil numérique pratique pour répertorier, organiser et consulter une collection de plantes, d'herbes ou d'espèces botaniques. L'objectif est de créer une interface simple et intuitive, accessible à tous, y compris aux débutants en botanique.<br /> 
 Voici une présentation générale pour la conception d'une telle application : <br />
 
-## <h2>1. 🚀 Objectifs de l'application</h2>
+## 1. 🚀 Objectifs de l'application
 
 ###    • Facilité d'utilisation : 
 Permettre aux utilisateurs de créer et gérer un herbier numérique sans compétences techniques.
@@ -12,7 +12,7 @@ Offrir un moyen pratique de cataloguer les plantes, avec des informations comme 
 ###    • Accessibilité : 
 Permettre un accès facile sur différents appareils (ordinateurs, tablettes, smartphones) via un navigateur web.
 
-## <h2>2. 💡 Fonctionnalités principales</h2>
+## 2. 💡 Fonctionnalités principales
 
 ###    • Création de fiches de plantes : Les utilisateurs peuvent ajouter une plante à leur herbier avec les détails suivants :
         ◦ Nom commun et latin
@@ -30,7 +30,7 @@ Les utilisateurs peuvent créer des comptes pour enregistrer et synchroniser leu
 ###    • Sauvegarde et exportation : 
 Les utilisateurs peuvent exporter leur herbier sous forme de fichier PDF ou CSV pour le conserver en local ou le partager facilement.
 
-## <h2>3. 🛠️ Technologies utilisées</h2>
+## 3. 🛠️ Technologies utilisées
 
 ###    • Frontend (interface utilisateur) : 
 Utilisation de technologies modernes telles que HTML5, TypeScript avec les frameworks comme Next.Js, React, Taiwind CSS  pour construire une interface dynamique et interactive.
@@ -41,7 +41,7 @@ Une base de données relationnelle MySQL, pour stocker les informations relative
 ###    • Hébergement et déploiement : 
 Utilisation du service AWS pour l'hébergement de l'application, offrant ainsi une solution scalable et accessible à tous.
 
-## <h2>4. 🧩 Maquettes de l'application</h2>
+## 4. 🧩 Maquettes de l'application
 
 L'interface doit être claire, simple et agréable à utiliser. Voici les éléments clés de la maquette :
 ###    • Page d'accueil : 
@@ -52,7 +52,7 @@ Affichage des plantes ajoutées, avec des options pour en ajouter de nouvelles o
 Un formulaire de saisie facile à utiliser, avec des champs pour les informations nécessaires, et la possibilité de télécharger une photo.
 ###    • Page de herbier: Affichage la liste des plantes.
 
-## <h2>5. 📝 Étapes de développement</h2>
+## 5. 📝 Étapes de développement
 
 ###    • Phase 1 : Planification : 
 Définir précisément les fonctionnalités nécessaires et les exigences techniques. Concevoir les maquettes de l'interface.
@@ -65,6 +65,6 @@ Tester l'application sur différents appareils et navigateurs pour s'assurer de 
 ###    • Phase 5 : Lancement et maintenance : 
 Déployer l'application et effectuer des mises à jour régulières en fonction des retours des utilisateurs.
 
-## <h2>6. 🎯 Conclusion</h2>
+## 6. 🎯 Conclusion
 
 Cette application d'herbier simple et intuitive permet de rapprocher le monde de la botanique des utilisateurs débutants ou passionnés, tout en offrant une solution pratique pour la gestion et les connaissances sur les plantes. 
