@@ -15,10 +15,19 @@ L'utilisation des ORM (Object-Relational Mapping) comme Prisma ORM est un excell
 <b>Yup</b> est un constructeur de schéma pour l'analyse et la validation des valeurs pendant l'exécution. <br />
 - Définissez un schéma, transformez une valeur pour qu'elle corresponde, affirmez la structure d'une valeur existante, ou les deux.<br /> 
 - Les schémas Yup sont extrêmement expressifs et permettent de modéliser des validations complexes et interdépendantes, ainsi que des transformations de valeurs.
-- exemple de schéma pour exclure les caratères < et > :<br />
-<img style="margin: 10px" src="images/code-yup-crochet.png" alt="code yup crochet" title="code yup crochet" height="70px" />
-- exemple de schéma pour contrôler un numéro de téléphone français sans espace en version national ou international :<br />
-<img style="margin: 10px" src="images/code-yup-phone.png" alt="code yup phone" title="code yup phone" height="100px" />
+- Schéma pour exclure les caratères < et > :<br />
+``` 
+text: Yup.string()
+    .matches(/^[^<>]*$/, "Les caractères '<' et '>' sont interdits")
+    .required("Ce champ est requis"),
+``` 
+
+- exemple de schéma pour contrôler un numéro de téléphone français sans espace en version national ou internationnal :<br />
+``` 
+phone: Yup.string()
+    .matches(^\+33[1-9]\d{8}$|^0[1-9]\d{8}$, "Le numéro de téléphone n'est pas valide")
+    .required("Le numéro de téléphone est requis"),
+``` 
 
 La bibliothèque <b>Formik</b> est une bibliothèque populaire de gestion de formulaires pour React.<br />
 - Formik est  conçu pour gérer des formulaires avec une validation complexe ou simple.<br />
