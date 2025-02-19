@@ -4,7 +4,7 @@
 
 ### a. Utilisation de l'ORM Prisma
 
-L'utilisation des ORM (Object-Relational Mapping) comme Prisma ORM est un excellent choix pour éviter les injections SQL car il génère des requêtes SQL préparées (ou paramétrées) automatiquement.
+L'utilisation des <b>ORM (Object-Relational Mapping) comme Prisma ORM</b> est un excellent choix pour éviter les injections SQL car il génère des requêtes SQL préparées (ou paramétrées) automatiquement.
 
 - ORM est un programme informatique qui se place entre un back-end et une base de données relationnelle.
 - Celui-ci sécurise les échanges entre le back-end et la base de données en n'exposant pas les requêtes SQL.
@@ -34,15 +34,15 @@ La bibliothèque <b>Formik</b> est une bibliothèque populaire de gestion de for
 - Formik supporte la validation synchrone et asynchrone au niveau du formulaire et du champ.<br /> 
 - Le hook personnalisé useFormik aide à simplifier le processus de création et de gestion de formulaires dans les applications React en gérant l'état du formulaire, la validation et la soumission du formulaire.<br />
 
-
 ### c. Hachage Bcrypt
 
 <b>Bcrypt</b> est une technique de hachage utilisée pour protéger les mots de passe contre les attaques des hackers en stockant les mots de passe sous un format haché.<br />
-- Il transforme le mot de passe d'un utilisateur en une chaîne de caractères de longueur fixe au sein d'une fonction de hachage unidirectionnelle, ce qui garantit qu'il ne peut pas être inversé pour retrouver le mot de passe d'origine.
+- Il transforme le mot de passe d'un utilisateur en une chaîne de caractères de longueur fixe au sein d'une fonction de <b>hachage unidirectionnelle</b>, ce qui garantit qu'il ne peut pas être inversé pour retrouver le mot de passe d'origine.
 - Lorsque l'utilisateur se connecte, bcrypt ré-hache le mot de passe et compare cette nouvelle valeur à celle stockée dans la base de données pour vérifier leur correspondance.<br />
 
-- Pour une meilleure sécurité, je hache le refresh_token dans la base de données.
+### d. Dto
 
+Création de <b>DTos</b> pour valider les données passées dans <b>prisma</b>.
 
 ## 🔒 2. Sécurisation des sessions
 

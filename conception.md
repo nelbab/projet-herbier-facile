@@ -1,7 +1,8 @@
 # 🌿 Conception 🌷
 
+<br />
 La création de cette application web d'herbier facile me permet de concevoir un outil numérique pratique pour répertorier, organiser et consulter une collection de plantes, d'herbes ou d'espèces botaniques. L'objectif est de créer une interface simple et intuitive, accessible à tous, y compris aux débutants en botanique.<br /> 
-Voici une présentation générale pour la conception d'une telle application : <br />
+Voici une présentation générale pour la conception d'une telle application : <br /><br />
 
 ## 1. 🚀 Objectifs de l'application
 
@@ -11,6 +12,7 @@ Permettre aux utilisateurs de créer et gérer un herbier numérique sans compé
 Offrir un moyen pratique de cataloguer les plantes, avec des informations comme le nom commun, le nom latin, la description,  la catégorie, l'image, la comestibilité, la localisation ou la date de l’image.
 ###    • Accessibilité : 
 Permettre un accès facile sur différents appareils (ordinateurs, tablettes, smartphones) via un navigateur web.
+<br /><br />
 
 ## 2. 💡 Fonctionnalités principales
 
@@ -29,17 +31,19 @@ Une interface simple avec un tableau de bord clair pour gérer les plantes et le
 Les utilisateurs peuvent créer des comptes pour enregistrer et synchroniser leurs herbiers en ligne. 
 ###    • Sauvegarde et exportation : 
 Les utilisateurs peuvent exporter leur herbier sous forme de fichier PDF ou CSV pour le conserver en local ou le partager facilement.
+<br /><br />
 
 ## 3. 🛠️ Technologies utilisées
 
 ###    • Frontend (interface utilisateur) : 
 Utilisation de technologies modernes telles que HTML5, TypeScript avec les frameworks comme Next.Js, React, Taiwind CSS  pour construire une interface dynamique et interactive.
 ###    • Backend (gestion des données) : 
-Un serveur basé sur Node.js avec Next.Js, et lORM Prisma pour gérer les requêtes des utilisateurs, les données des plantes, les comptes utilisateurs, etc.
+Un serveur basé sur Node.js avec Next.Js, et l'ORM Prisma pour gérer les requêtes des utilisateurs, les données des plantes, les comptes utilisateurs, etc.
 ###    • Base de données : 
 Une base de données relationnelle MySQL, pour stocker les informations relatives aux plantes et aux utilisateurs.
 ###    • Hébergement et déploiement : 
 Utilisation du service AWS pour l'hébergement de l'application, offrant ainsi une solution scalable et accessible à tous.
+<br /><br />
 
 ## 4. 🧩 Maquettes de l'application
 
@@ -50,7 +54,9 @@ Présentation générale de l'application et bouton de connexion/inscription.
 Affichage des plantes ajoutées, avec des options pour en ajouter de nouvelles ou les modifier.
 ###    • Page de fiche de plante : 
 Un formulaire de saisie facile à utiliser, avec des champs pour les informations nécessaires, et la possibilité de télécharger une photo.
-###    • Page de herbier: Affichage la liste des plantes.
+###    • Page de herbier: 
+Affichage la liste des plantes.
+<br /><br />
 
 ## 5. 📝 Étapes de développement
 
@@ -64,6 +70,7 @@ Créer la logique serveur pour gérer les utilisateurs, les herbiers et la base 
 Tester l'application sur différents appareils et navigateurs pour s'assurer de son bon fonctionnement.
 ###    • Phase 5 : Lancement et maintenance : 
 Déployer l'application et effectuer des mises à jour régulières en fonction des retours des utilisateurs.
+<br /><br />
 
 ## 6. 🎯 Conclusion
 
