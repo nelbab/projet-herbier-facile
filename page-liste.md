@@ -4,7 +4,7 @@
 ## 💡 1. Mon objectif ?
 
 <b>Pour l'utilisateur</b>
-- L'utilisateur de trier les résultats selon un champ spécifique (name, date, categorie, etc.) et un ordre (asc ou desc).
+- Permettre à l'utilisateur de trier les résultats selon un champ spécifique (name, date, categorie, etc.) et un ordre (asc ou desc).
 - Chaque utilisateur peut organiser les données selon ses préférences et besoins spécifiques.
 - Offrir une expérience utilisateur optimale sur une page de liste d'informations.
 
