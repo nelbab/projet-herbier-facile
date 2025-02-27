@@ -1,6 +1,6 @@
-# 📝 Points sur la sécurité de l'application 🌷
+# 🔒 Points sur la sécurité de l'application 🌷
 
-## 🔒 1. Sécurisation des données
+## 📑 1. Sécurisation des données
 
 ### a. Utilisation de l'ORM Prisma
 
@@ -44,7 +44,7 @@ La bibliothèque <b>Formik</b> est une bibliothèque populaire de gestion de for
 
 Création de <b>DTos</b> pour valider les données passées dans <b>prisma</b>.
 
-## 🔒 2. Sécurisation des sessions
+## 👥 2. Sécurisation des sessions
 
 ### a. JWS token 
 
@@ -58,9 +58,9 @@ Les <b>JWS token</b> permettent une protection des connexions. <br />
 - L'utilisation des cookies permettera le bon fonctionnement de l'application.
 - Les données du cookie sont supprimées à la déconnexion ou à la fermeture du navigateur, ce qui assure une meilleure sécurité.
 
-## 🔒 3. Sécurisation de l'application avec le https
+## 🌍 3. Sécurisation de l'application avec le https
 
-Une fois que l'application sera finie et opérationnelle, le déploiement se fera sur un serveur debian avec l'utilisation d'un certificat de sécurité TLS pour avoir un accès de l'application en https.
+Une fois que l'application sera finie et opérationnelle, le déploiement se fera sur un serveur debian avec l'utilisation d'un certificat de sécurité TLS pour avoir un accès de l'application en https.<br>
 J'activerai HTTPS sur mon hébergeur AWS, mon application web est bien configuré pour utiliser HTTPS de manière optimale. AWS fournit une interface simple pour activer un certificat SSL/TLS. <br>
 J'activerai la redirection de tout le trafic HTTP vers HTTPS.
 - Cela garantira que les données échangées seront chiffrées, ce qui protège contre les interceptions ou attaques potentielles.<br>
