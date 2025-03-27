@@ -50,12 +50,22 @@ Utilisation du service AWS pour l'hébergement de l'application, offrant ainsi u
 L'interface doit être claire, simple et agréable à utiliser. Voici les éléments clés de la maquette :
 ###    • Page d'accueil : 
 Présentation générale de l'application et bouton de connexion/inscription.
-###    • Dashboard utilisateur : 
+###    • Page dashboard : 
 Affichage des plantes ajoutées, avec des options pour en ajouter de nouvelles ou les modifier.
+###    • Page prolile : 
+Permet de modifier les informations du profile ou le supprimer.
 ###    • Page de fiche de plante : 
 Un formulaire de saisie facile à utiliser, avec des champs pour les informations nécessaires, et la possibilité de télécharger une photo.
 ###    • Page de herbier: 
 Affichage la liste des plantes.
+###    • Page de gallerie de photos : 
+Affichage des plantes en gallerie pour avoir une vue globale.
+###    • Page de herbier Administrateur : 
+Affichage la liste des plantes et les gérer (exemple supprimer les photos et fiches non conformes).
+###    • Page de gallerie Administrateur : 
+Affichage des plantes en gallerie pour avoir une vue globale et les gérer (exemple supprimer les photos et fiches non conformes).
+###    • Page prolile Administrateur : 
+Permet de modifier les informations des profiles, changer le role ou les supprimer.
 <br /><br />
 
 ## 5. 📝 Étapes de développement
