@@ -30,7 +30,7 @@ phone: Yup.string()
 ``` 
 
 La bibliothèque <b>Formik</b> est une bibliothèque populaire de gestion de formulaires pour React.<br />
-- Formik est  conçu pour gérer des formulaires avec une validation complexe ou simple.<br />
+- Formik est conçu pour gérer des formulaires avec une validation complexe ou simple.<br />
 - Formik supporte la validation synchrone et asynchrone au niveau du formulaire et du champ.<br /> 
 - Le hook personnalisé useFormik aide à simplifier le processus de création et de gestion de formulaires dans les applications React en gérant l'état du formulaire, la validation et la soumission du formulaire.<br />
 
@@ -64,7 +64,7 @@ Les <b>JWS token</b> permettent une protection des connexions. <br />
 
 - L'utilisation des cookies permettera le bon fonctionnement de l'application.
 - Les données du cookie sont supprimées à la déconnexion ou à la fermeture du navigateur, ce qui assure une meilleure sécurité.
-- Les cookies seront protégés avec les paramètres "httpOnly: true" et "secure: true".
+- Les cookies sont protégés avec les paramètres "httpOnly: true" et "secure: true".
 - Utilisation des cookies de <b>next/headers</b>.
 
 ### c. Middleware
@@ -74,15 +74,16 @@ Les <b>JWS token</b> permettent une protection des connexions. <br />
   - Publique
   - User et Admin
   - Admin
+- Le <b>middleware</b> me permet de gérer les <b>tokens</b>. Contrôle de l'existance et de la validité du token access.
 <br><br>
 
 ## 🌍 3. Sécurisation de l'application avec le https
 
-Une fois que l'application sera finie et opérationnelle, le déploiement se fera sur un serveur debian avec l'utilisation d'un certificat de sécurité TLS pour avoir un accès de l'application en https.<br>
-J'activerai <b>HTTPS</b> sur mon hébergeur AWS, mon application web est bien configuré pour utiliser HTTPS de manière optimale. AWS fournit une interface simple pour activer un certificat SSL/TLS. <br>
-J'activerai la redirection de tout le trafic HTTP vers HTTPS.
-- Cela garantira que les données échangées seront chiffrées, ce qui protège contre les interceptions ou attaques potentielles.<br>
-- Ce qui permettra de chiffrer les requêtes http post notamment.
+Une fois que l'application sera finie et opérationnelle, le déploiement se fera sur un serveur debian avec l'utilisation d'un <b>certificat de sécurité TLS</b> pour avoir un accès de l'application en https.<br>
+J'ai activé <b>HTTPS</b> sur mon hébergeur AWS, mon application web est bien configuré pour utiliser HTTPS de manière optimale. AWS fournit une interface simple pour activer un <b>certificat SSL/TLS</b>. <br>
+J'ai activé la redirection de tout le trafic HTTP vers HTTPS.
+- Cela garanti que les données échangées seront chiffrées, ce qui protège contre les interceptions ou attaques potentielles.<br>
+- Ce qui permet de chiffrer les requêtes http `POST` notamment.
 <br><br>
 
 ## 🎯 4. Conclusion

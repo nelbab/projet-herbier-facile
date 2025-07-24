@@ -9,17 +9,22 @@ Voici une présentation générale pour la conception d'une telle application : 
 ###    • Facilité d'utilisation : 
 Permettre aux utilisateurs de créer et gérer un herbier numérique sans compétences techniques.
 ###    • Référencement des plantes : 
-Offrir un moyen pratique de cataloguer les plantes, avec des informations comme le nom commun, le nom latin, la description,  la catégorie, l'image, la comestibilité, la localisation ou la date de l’image.
+Offrir un moyen pratique de cataloguer les plantes, avec des informations comme le nom commun, le nom latin, la description,  la famille, la catégorie, l'image, la comestibilité, la localisation ou la date de l’image.
 ###    • Accessibilité : 
 Permettre un accès facile sur différents appareils (ordinateurs, tablettes, smartphones) via un navigateur web.
+###     • Partage et visibilité publique : 
+Permettre aux utilisateurs de rendre certaines fiches et photos accessibles à tous via des pages publiques dédiées (consultables sans authentification).
 <br /><br />
 
 ## 2. 💡 Fonctionnalités principales
 
 ###    • Création de fiches de plantes : Les utilisateurs peuvent ajouter une plante à leur herbier avec les détails suivants :
+
         ◦ Nom commun et latin
         ◦ Description physique
         ◦ Catégorie
+        ◦ Famille
+        ◦ Type
         ◦ Image de la plante
         ◦ Date et lieu de l'image
         ◦ Comestibilité.
@@ -31,6 +36,14 @@ Une interface simple avec un tableau de bord clair pour gérer les plantes et le
 Les utilisateurs peuvent créer des comptes pour enregistrer et synchroniser leurs herbiers en ligne. 
 ###    • Sauvegarde et exportation : 
 Les utilisateurs peuvent exporter leur herbier sous forme de fichier PDF ou CSV pour le conserver en local ou le partager facilement.
+###    • Publication publique
+Les utilisateurs peuvent sélectionner une fiche ou une photo et la publier.
+- Les éléments publiés apparaissent automatiquement dans :
+    - la page Herbier public (liste de toutes les plantes rendues publiques),
+    - la page Fiche de plante publique (détail d’une plante partagée),
+    - la page Galerie de photos publique (vignettes de toutes les photos publiques).
+- Un badge « public » distingue visuellement les contenus partagés.
+- Les visiteurs non‑connectés peuvent consulter, mais pas modifier, ces contenus.
 <br /><br />
 
 ## 3. 🛠️ Technologies utilisées
@@ -66,6 +79,12 @@ Affichage la liste des plantes et les gérer (exemple supprimer les photos et fi
 Affichage des plantes en gallerie pour avoir une vue globale et les gérer (exemple supprimer les photos et fiches non conformes).
 ###    • Page prolile Administrateur : 
 Permet de modifier les informations des profiles, changer le role ou les supprimer.
+###    • Page Herbier public
+Liste filtrable de toutes les fiches publiques.
+###    • Page Fiche de plante publique
+Vue détail d’une fiche partagée (URL partageable).
+###    • Page Galerie de photos publique
+Galerie responsive des images publiques permettant d'avoir un apperçu des images publiques.
 <br /><br />
 
 ## 5. 📝 Étapes de développement
@@ -84,4 +103,5 @@ Déployer l'application et effectuer des mises à jour régulières en fonction 
 
 ## 6. 🎯 Conclusion
 
-Cette application d'herbier simple et intuitive permet de rapprocher le monde de la botanique des utilisateurs débutants ou passionnés, tout en offrant une solution pratique pour la gestion et les connaissances sur les plantes. 
+Cette application d'herbier simple et intuitive permet de rapprocher le monde de la botanique des utilisateurs débutants ou passionnés, tout en offrant une solution pratique pour la gestion et les connaissances sur les plantes.<br />
+En offrant la possibilité de partager facilement leurs découvertes via des pages publiques, ce qui renforce la dimension collaborative et pédagogique du projet. 
