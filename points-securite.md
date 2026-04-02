@@ -43,7 +43,7 @@ La bibliothèque <b>Formik</b> est une bibliothèque populaire de gestion de for
 ### d. Cryptage des données sensibles
 
 - utilisation de la librairie <b>crypto-js</b>.
-- J'ai crypté le access_token avant de l'enregistrer dans le cookie et le refresh_token avec de l'enregistrer dans la base de données.
+- J'ai crypté le access_token avant de l'enregistrer dans le cookie et le refresh_token avant de l'enregistrer dans la base de données.
 
 ### c. Dto
 
