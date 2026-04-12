@@ -4,6 +4,8 @@
 La création de cette application web d'herbier facile me permet de concevoir un outil numérique pratique pour répertorier, organiser et consulter une collection de plantes, d'herbes ou d'espèces botaniques. L'objectif est de créer une interface simple et intuitive, accessible à tous, y compris aux débutants en botanique.<br /> 
 Voici une présentation générale pour la conception d'une telle application : <br /><br />
 
+---
+
 ## 1. 🚀 Objectifs de l'application
 
 ###    • Facilité d'utilisation : 
@@ -14,7 +16,9 @@ Offrir un moyen pratique de cataloguer les plantes, avec des informations comme 
 Permettre un accès facile sur différents appareils (ordinateurs, tablettes, smartphones) via un navigateur web.
 ###     • Partage et visibilité publique : 
 Permettre aux utilisateurs de rendre certaines fiches et photos accessibles à tous via des pages publiques dédiées (consultables sans authentification).
-<br /><br />
+<br />
+
+---
 
 ## 2. 💡 Fonctionnalités principales
 
@@ -44,7 +48,9 @@ Les utilisateurs peuvent sélectionner une fiche ou une photo et la publier.
     - la page Galerie de photos publique (vignettes de toutes les photos publiques).
 - Un badge « public » distingue visuellement les contenus partagés.
 - Les visiteurs non‑connectés peuvent consulter, mais pas modifier, ces contenus.
-<br /><br />
+<br />
+
+---
 
 ## 3. 🛠️ Technologies utilisées
 
@@ -56,7 +62,9 @@ Un serveur basé sur Node.js avec Next.Js, et l'ORM Prisma pour gérer les requ�
 Une base de données relationnelle MySQL, pour stocker les informations relatives aux plantes et aux utilisateurs.
 ###    • Hébergement et déploiement : 
 Utilisation du service AWS pour l'hébergement de l'application, offrant ainsi une solution scalable et accessible à tous.
-<br /><br />
+<br />
+
+---
 
 ## 4. 🧩 Maquettes de l'application
 
@@ -85,7 +93,9 @@ Liste filtrable de toutes les fiches publiques.
 Vue détail d’une fiche partagée (URL partageable).
 ###    • Page Galerie de photos publique
 Galerie responsive des images publiques permettant d'avoir un apperçu des images publiques.
-<br /><br />
+<br />
+
+---
 
 ## 5. 📝 Étapes de développement
 
@@ -99,7 +109,9 @@ Créer la logique serveur pour gérer les utilisateurs, les herbiers et la base 
 Tester l'application sur différents appareils et navigateurs pour s'assurer de son bon fonctionnement.
 ###    • Phase 5 : Lancement et maintenance : 
 Déployer l'application et effectuer des mises à jour régulières en fonction des retours des utilisateurs.
-<br /><br />
+<br />
+
+---
 
 ## 6. 🎯 Conclusion
 

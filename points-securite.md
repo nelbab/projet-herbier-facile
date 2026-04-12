@@ -50,6 +50,8 @@ La bibliothèque <b>Formik</b> est une bibliothèque populaire de gestion de for
 Création de <b>DTos</b> pour valider les données passées dans <b>Prisma</b>.
 <br><br>
 
+---
+
 ## 👥 2. Sécurisation des sessions
 
 ### a. JWS token 
@@ -59,11 +61,13 @@ Les <b>JWS token</b> permettent une protection des connexions. <br />
 - Le payload contient les informations à transmettre comme l'id du user ou la date d'expiration.
 - Le refresh_token, stocké dans la table user, permet aux utilisateurs de générer un nouvel access_token sans devoir se reconnecter à chaque expiration de l'access_token tant que le refresh_token est valide.
 - Utilisation de la librairie <b>jsonwebtoken</b>.
+- Les tokens ont une durée différente suivant son type et la version de l'application utilisée (web ou mobile) et limitée dans le temps avec un équilibre entre l'expérience utilisateur et la sécurité.
 
 ### b. Cookie
 
 - L'utilisation des cookies permettera le bon fonctionnement de l'application.
 - Les données du cookie sont supprimées à la déconnexion ou à la fermeture du navigateur, ce qui assure une meilleure sécurité.
+- Les données du cookie ont une durée limité dans le temps avec un équilibre entre l'expérience utilisateur et la sécurité.
 - Les cookies sont protégés avec les paramètres "httpOnly: true" et "secure: true".
 - Utilisation des cookies de <b>next/headers</b>.
 
@@ -77,6 +81,8 @@ Les <b>JWS token</b> permettent une protection des connexions. <br />
 - Le <b>middleware</b> me permet de gérer les <b>tokens</b>. Contrôle de l'existance et de la validité du token access.
 <br><br>
 
+---
+
 ## 🌍 3. Sécurisation de l'application avec le https
 
 Une fois que l'application sera finie et opérationnelle, le déploiement se fera sur un serveur debian avec l'utilisation d'un <b>certificat de sécurité TLS</b> pour avoir un accès de l'application en https.<br>
@@ -85,6 +91,8 @@ J'ai activé la redirection de tout le trafic HTTP vers HTTPS.
 - Cela garanti que les données échangées seront chiffrées, ce qui protège contre les interceptions ou attaques potentielles.<br>
 - Ce qui permet de chiffrer les requêtes http `POST` notamment.
 <br><br>
+
+---
 
 ## 🎯 4. Conclusion
 

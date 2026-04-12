@@ -4,11 +4,15 @@
 Ce document présente la démarche d’intégration de `Capacitor` dans un projet web développé avec `Next.js`, dans le but de générer des applications mobiles natives pour `Android` et `iOS`. Il met en avant les choix techniques, les adaptations spécifiques au mobile (notamment la gestion des images), ainsi que les résultats obtenus à travers des tests sur différents environnements.
 <br><br>
 
+---
+
 ## 🔭 1. Objectifs
 
 - Créer des applications `Android` et `iOS`.
 - Faciliter l'utilisation directement sur le terrain.
 <br><br>
+
+---
 
 ## 📖 2. Points à vérifier pour Capacitor
 
@@ -18,6 +22,8 @@ Ce document présente la démarche d’intégration de `Capacitor` dans un proje
 - Images enregistrées sur le serveur sont déjà optimisées pour la version mobiles.
 - Possibilité de créer une application Android et une application iOS.
 <br><br>
+
+---
 
 ## 👩‍💻 3. Modifications apportées au projet
 
@@ -66,7 +72,9 @@ Exemple d'un GET :
     </div>
 )}
 ```
-<br><br>
+<br>
+
+---
 
 ## 📑 4. Tests
 
@@ -88,8 +96,9 @@ Exemple d'un GET :
 Tous les tests se sont déroulés correctement et ont validé le bon fonctionnement des principales fonctionnalités.
 
 **Les tests iOS seront effectués ultérieurement**, une fois le projet ouvert et configuré sur un environnement macOS avec Xcode.
-<br><br>
+<br>
 
+---
 
 ## 🛠️ 5. Technologies utilisées
 
@@ -97,6 +106,8 @@ Tous les tests se sont déroulés correctement et ont validé le bon fonctionnem
 <a href="https://nextjs.org/" target="_blank"><img style="margin: 10px" src="images/nextjs.png" alt="NextJS" title="NextJS" height="50" /></a>
 <a href="https://developer.android.com/studio?hl=fr" target="_blank"><img style="margin: 10px" src="images/android.png" alt="android studio" title="android studio" height="50" /></a>
 <br><br>
+
+---
 
 ## 🚀 6. Build et publication
 La génération des applications mobiles s’effectue avec les commandes `Capacitor` :
@@ -113,7 +124,9 @@ Les étapes de déploiement comprennent :
 
 Le projet iOS a été initialisé, mais **n’a pas encore été testé ni finalisé**.  
 👉 **Les étapes de build, test et publication sur l’App Store seront réalisées prochainement**, lorsque l’environnement de développement iOS sera opérationnel.
-<br><br>
+<br>
+
+---
 
 ## 🔧 7. Scripts NPM et commandes Capacitor
 L'intégration mobile repose sur une série de commandes définies dans le fichier package.json, facilitant le développement, le test, la synchronisation, et le build de l'application.
@@ -141,7 +154,9 @@ Extrait du package.json :
 - de compiler l'application en mode export (build:export)
 - de lancer l’app en live-reload sur un périphérique mobile (cap:dev:*)
 - de synchroniser et ouvrir le projet dans Android Studio ou Xcode (cap:open:*)
-<br><br>
+<br>
+
+---
 
 ## ⚙️ 8. Configuration Capacitor
 La configuration de `Capacitor` est définie dans capacitor.config.ts. Elle inclut :
@@ -204,6 +219,8 @@ const config: CapacitorConfig = {
 ```
 <br>
 
+---
+
 ## 🔐 9. Permissions Android (AndroidManifest.xml)
 Voici les autorisations définies dans le fichier AndroidManifest.xml pour garantir l'accès à la caméra et à la galerie, tout en respectant les spécificités des différentes versions d'Android :
 
@@ -239,6 +256,8 @@ Et le provider nécessaire à la gestion sécurisée des fichiers photo :
 ```
 <br>
 
+---
+
 ## 🔭 10. Perspectives pour l’application iOS
 Le projet iOS a été amorcé avec Capacitor et la configuration de base est en place. La suite du développement et des tests sur cette plateforme fait partie des prochaines étapes.
 
@@ -251,7 +270,9 @@ Le projet iOS a été amorcé avec Capacitor et la configuration de base est en 
 - Publication sur l’App Store, accompagnée d’un processus de validation Apple.
 
 🎗️ L’objectif est de garantir une expérience fluide et native sur iOS, avec un respect strict des standards Apple tout en gardant la logique métier commune avec la version Android.
-<br><br>
+<br>
+
+---
 
 ## 🎯 11. Conclusion
 

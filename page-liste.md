@@ -13,6 +13,8 @@
 - La recherche par date facilitera le contrôle des images, contenus et utilisateurs.
 <br><br>
 
+---
+
 ## 2. 📖 Implantation de la pagination
 
 La pagination est un outil essentiel pour améliorer l'expérience utilisateur sur une page de liste d'informations. 
@@ -47,6 +49,8 @@ La pagination est un outil essentiel pour améliorer l'expérience utilisateur s
 
 En résumé, la pagination est un élément clé pour offrir une expérience utilisateur optimale sur une page de liste d'informations. Elle améliore la vitesse, la navigation, le référencement et la gestion des données.
 <br><br>
+
+---
 
 ## 3. 🔎 Implantation de la recherche
 
@@ -86,6 +90,8 @@ Voici les principaux avantages :
 En résumé, la recherche par mots-clés est un outil essentiel pour améliorer l'efficacité et l'expérience utilisateur lors de l'affichage de listes d'informations. Elle permet de cibler précisément l'information, de gagner du temps et de s'adapter aux besoins spécifiques des utilisateurs.
 <br><br>
 
+---
+
 ## 📑 4. Implantation du tri
 
 Les avantages du tri pour améliorer l'affichage d'une liste d'informations sont :
@@ -123,6 +129,8 @@ Les avantages du tri pour améliorer l'affichage d'une liste d'informations sont
 En résumé, le tri est un outil essentiel pour rendre les listes d'informations plus utiles et plus conviviales.
 <br><br>
 
+---
+
 ## 5. Affichage entre 2 dates ou une date précise
 
 L’ajout d’un filtre de date permet une navigation plus ciblée et un contrôle plus efficace des données affichées.
@@ -148,6 +156,8 @@ L’ajout d’un filtre de date permet une navigation plus ciblée et un contrô
 - Combine parfaitement avec les autres outils (recherche, tri, pagination) pour affiner les résultats.
 <br><br>
 
+---
+
 ## 🚀 6. Affichage des résultats sur les pages
 
 - A l'ouverture de la page, le résultat est affiché avec une pagination.
@@ -156,6 +166,7 @@ L’ajout d’un filtre de date permet une navigation plus ciblée et un contrô
 - J'ai ajouté une liste déroulante pour choisir l'ordre du tri suivant les champs de la table.
 <br><br>
 
+---
 
 ## 🎯 7. Conclution
 
